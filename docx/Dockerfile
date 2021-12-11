@@ -3,8 +3,8 @@ FROM python:3.8-slim-buster
 # install utilities
 RUN apt-get update && apt-get -y install sudo && apt-get install curl -y
 RUN pip install gunicorn
-RUN mkdir -p /opt/zybot
-WORKDIR /opt/zybot
+RUN mkdir -p /app
+WORKDIR /app
 COPY . .
 
 RUN pip install -r requirements.txt
