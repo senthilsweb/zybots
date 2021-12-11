@@ -1,2 +1,2 @@
 # zybots
-Tiny utility functions in python, golang and nodejs can act like software bots 
+RESTful microservices as software bots written in python, golang and nodejs 
