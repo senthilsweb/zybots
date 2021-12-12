@@ -5,7 +5,7 @@ RUN apt-get update && apt-get -y install sudo && apt-get install curl -y
 RUN pip install gunicorn
 
 WORKDIR /src
-COPY . .
+COPY ./docx .
 
 RUN pip install -r requirements.txt
 
